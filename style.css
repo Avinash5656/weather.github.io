@@ -1,0 +1,64 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+    background-image: url('https://img.freepik.com/free-photo/fog-dark-clouds-mountains_1204-503.jpg?w=996&t=st=1668614880~exp=1668615480~hmac=49ebb8760f9650aff93f14ae48f7bbd7d362d87d57532d8aa117c118cd95ccd2');
+    background-size: cover;
+}
+
+.card{
+    background-color: #000000d0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 45px;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #ece5e52b;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 9px;
+    background-color: #ece5e52b;
+    color: white;
+    font-size: 120%;
+    width: 100%;
+}
+
+button:hover{
+    background-color:#fffefeaa ;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.loading{
+    visibility: hidden;
+    max-height: 20px;
+}
+
